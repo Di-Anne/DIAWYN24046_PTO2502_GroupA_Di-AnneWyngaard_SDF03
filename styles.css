@@ -24,5 +24,6 @@ img {
 
 .profile{
     display: flex;
+    justify-content: center;
 }
 
