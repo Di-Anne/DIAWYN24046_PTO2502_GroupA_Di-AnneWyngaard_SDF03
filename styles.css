@@ -22,14 +22,22 @@ img {
     display: block;
 }
 
+.profile img{
+    border-radius: 50%;
+    border: 10px solid #2d6a4f;
+    width: 200px;
+}
+
 .profile{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .profile-user-settings{
     display: flex;
+    gap: 10px;
     justify-content: space-evenly;
 }
 
@@ -41,3 +49,5 @@ img {
 ul li{
     list-style-type: none;
 }
+
+
