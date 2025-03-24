@@ -28,3 +28,16 @@ img {
     align-items: center;
 }
 
+.profile-user-settings{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-stats ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li{
+    list-style-type: none;
+}
