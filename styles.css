@@ -1,7 +1,7 @@
 /* Base Styles */
 
 :root {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 *,
@@ -36,9 +36,27 @@ img {
 }
 
 .profile-user-settings{
+    border: 10px solid black;
     display: flex;
-    gap: 10px;
+    align-items: center;
     justify-content: space-evenly;
+    gap: 10px;
+}
+
+.profile-edit-btn{
+    background: none;
+    border-radius: 5px;
+    padding: 3px 20px;
+    
+}
+
+.profile-settings-btn{
+    border: none;
+    background: none;
+}
+
+.profile-user-name{
+    font-weight: lighter;
 }
 
 .profile-stats ul{
@@ -49,5 +67,7 @@ img {
 ul li{
     list-style-type: none;
 }
-
+.profile-stat-count{
+    font-weight: bold;
+}
 
