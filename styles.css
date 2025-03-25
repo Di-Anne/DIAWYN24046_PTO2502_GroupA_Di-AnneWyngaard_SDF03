@@ -36,7 +36,6 @@ img {
 }
 
 .profile-user-settings{
-    border: 10px solid black;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -47,7 +46,8 @@ img {
     background: none;
     border-radius: 5px;
     padding: 3px 20px;
-    
+    font-weight: bold;
+    cursor: pointer; 
 }
 
 .profile-settings-btn{
