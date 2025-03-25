@@ -33,6 +33,8 @@ img {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .profile-user-settings{
@@ -62,6 +64,8 @@ img {
 .profile-stats ul{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 ul li{
@@ -70,4 +74,3 @@ ul li{
 .profile-stat-count{
     font-weight: bold;
 }
-
