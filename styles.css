@@ -20,12 +20,14 @@ body {
 
 img {
     display: block;
+    width: 200px;
+    height: 200px;
 }
 
 .profile img{
     border-radius: 50%;
     border: 10px solid #2d6a4f;
-    width: 250px;
+    width: 270px;
 }
 
 .profile{
@@ -75,17 +77,20 @@ img {
 
 .gallery{
     display: grid;
-    grid-template-columns: repeat (3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-left: 120px;
     margin-right: 120px;
     margin-bottom: 20px;
-    gap: 20px;
+    gap: 1px;
 }
 
 .gallery-item-info ul{
     display: flex;
     list-style: none;
 }
+
+
+
 
 .visually-hidden{
     visibility: hidden;
