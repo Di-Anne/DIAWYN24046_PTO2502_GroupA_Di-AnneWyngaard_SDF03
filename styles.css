@@ -21,7 +21,7 @@ body {
 img {
     display: block;
     width: 280px;
-    height: 320px;
+    height: 350px;
 }
 
 .profile img{
@@ -79,7 +79,6 @@ img {
 .gallery{
     width: 50%;
     height: 50%;
-    border: 5px solid black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-left: 500px;
@@ -89,13 +88,20 @@ img {
     align-items: center;
 }
 
+.gallery-item{
+    cursor: pointer;
+    position: relative;
+}
+
+.gallery-item-info{
+    position: absolute;
+    top: 150px;
+}
+
 .gallery-item-info ul{
     display: flex;
     list-style: none;
 }
-
-
-
 
 .visually-hidden{
     visibility: hidden;
