@@ -77,12 +77,16 @@ img {
 }
 
 .gallery{
+    width: 50%;
+    height: 50%;
+    border: 5px solid black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 120px;
+    margin-left: 500px;
     margin-right: 120px;
     margin-bottom: 20px;
-    gap: 1px;
+    justify-items: center;
+    align-items: center;
 }
 
 .gallery-item-info ul{
